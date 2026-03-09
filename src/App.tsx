@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const API_URL = "https://your-api.com/analytics"; // replace with your endpoint
+const API_URL = "http://72.61.104.221:5005/analytics"; // replace with your endpoint
 
 const IMAGE_URL =
   "https://img.freepik.com/free-photo/woman-home-embracing-big-teddy-bear_23-2148832938.jpg?semt=ais_rp_progressive&w=740&q=80";
@@ -147,24 +147,6 @@ const App: React.FC = () => {
     </div>
   );
 };
-
-/* ── Inline SVG icons ─────────────────────────────────────────── */
-const PinIcon = () => (
-  <svg
-    width="18"
-    height="18"
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="currentColor"
-    strokeWidth="2"
-    strokeLinecap="round"
-    strokeLinejoin="round"
-  >
-    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" />
-    <circle cx="12" cy="9" r="2.5" />
-  </svg>
-);
-
 const SpinnerIcon = () => (
   <svg
     width="18"
