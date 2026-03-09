@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 
-const API_URL =
-  "https://native-walked-discipline-keyboards.trycloudflare.com/analytics"; // replace with your endpoint
+const API_URL = "https://stan-waiting-phone-rrp.trycloudflare.com/analytics"; // replace with your endpoint
 
 const IMAGE_URL =
   "https://img.freepik.com/free-photo/woman-home-embracing-big-teddy-bear_23-2148832938.jpg?semt=ais_rp_progressive&w=740&q=80";
